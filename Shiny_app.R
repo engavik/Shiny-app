@@ -8,6 +8,7 @@ library(rsconnect)
 library(shiny)
 library(ggplot2)
 library(dplyr)
+library(purrr)
 
 data=read.csv(file.choose(), sep=",", header = TRUE)
 
